@@ -1,0 +1,14 @@
+{
+  "name": "external_service",
+  "version": "1.0.0",
+  "description": "A service for use in testing iOS Set-Cookie bug. Represents a different domain than the one add-in is hosted on (hence 'external').",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

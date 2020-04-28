@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+</head>
+
+<body>
+  <p id="cookieOutput">This should be replace with cookies data.</p>
+
+  <script>
+    var outputCookies = document.cookie;
+    if (outputCookies) {
+      document.getElementById("cookieOutput").innerHTML = document.cookie;
+    } else {
+      document.getElementById("cookieOutput").innerHTML = 'No cookies currently set.';
+    }
+  </script>
+</body>
+
+</html>
